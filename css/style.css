@@ -12,8 +12,13 @@ header {
 header h1 {
     margin: 0;
     padding: 20px;
+    padding-bottom: 0px;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+small {
+    padding-bottom: 10px;
 }
 
 main {
@@ -50,6 +55,10 @@ legend {
     margin-bottom: 5px;
 }
 
+.title-container {
+    padding-bottom: 1.5rem;
+}
+
 .contact-container label {
     display: block; 
     margin-top: 24px;
@@ -72,48 +81,48 @@ input[type="number"],
     background-color: #E4D7D0;
     border: none;
     border-radius: 4px;
-    transition: background-color 2s;
+    transition: background-color .5s;
 } 
 
 input[type="text"]:hover {
-    background-color: #FF8229;
-    transition: background-color 2s;
+    background-color: white;
+    transition: background-color .5s;
 }
 
 input[type="tel"]:hover {
-    background-color: #FF8229;
-    transition: background-color 2s;
+    background-color: white;
+    transition: background-color .5s;
 }
 
 input[type="email"]:hover {
-    background-color: #FF8229;
-    transition: background-color 2s;
+    background-color: white;
+    transition: background-color .5s;
 }
 
 input[type="option"]:hover {
-    background-color: #FF8229;
-    transition: background-color 2s;
+    background-color: white;
+    transition: background-color .5s;
 }
 
 input[type="number"]:hover {
-    background-color: #FF8229;
-    transition: background-color 2s;
+    background-color: white;
+    transition: background-color .5s;
 }
 
 #state-select:hover {
-    background-color: #FF8229;
-    transition: background-color 2s;
+    background-color: white;
+    transition: background-color .5s;
 }
 
 textarea:hover {
-    background-color: #FF8229;
+    background-color: white;
     width: 100%;
-    transition: background-color 2s;
+    transition: background-color .5s;
 }
 
 input:focus {
-    border: 4px solid #FF8229;
-    transition: background-color 2s;
+    border: 4px solid #4B8378;;
+    transition: background-color .5s;
 }
 
 button {
@@ -188,13 +197,14 @@ textarea {
     display: block; 
     width: 100%;
     margin: 10px 0;
-    padding: 35px; 
+    height: 140px;
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
     background-color: #E4D7D0;
     border: none;
     border-radius: 4px;
-    transition: background-color 2s;
+    transition: background-color .5s;
+    padding: 1.5rem;
 }
 
 #state-select:first-of-type {
@@ -240,11 +250,11 @@ input[type="radio"] {
         background-color: #E4D7D0;
         border: none;
         border-radius: 4px;
-        transition: background-color 2s;
+        transition: background-color .5s;
     }
 
     input:focus {
-        border: 4px solid #FF8229;
+        border: 4px solid #4B8378;
     }
         
     .contact-container label {
@@ -276,7 +286,6 @@ input[type="radio"] {
           display: inline-block; 
           width: 100%;
           margin-top: 20px;
-          padding: 60px; 
           font-size: 18px;
           font-family: 'Nunito', sans-serif;
           background-color: #E4D7D0;
